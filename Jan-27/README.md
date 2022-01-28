@@ -35,12 +35,3 @@ It is the space which we give before starting the line of code. It is helpful fo
 Assignment 1:
 -> Take the inputs from the user. It has to be dynamic. I can enter 3 numbers as well as 30 numbers. It should give me the maximum of all of them. We will be using Array as the underlying (in the code) data structure.
 
-
-
-
-
-
-4. Array (Create, Read, Update, Delete).
-2. switch
-3. Object
-
