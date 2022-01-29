@@ -41,10 +41,3 @@ Take input n from user and print all numbers in reverse order.
 Assignment 2:
 Print the first n numbers of a fibonacci series.
 -> 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
-
-
-
-5. Loops (Iteratives).
-4. Array (Create, Read, Update, Delete).
-2. switch
-3. Object
