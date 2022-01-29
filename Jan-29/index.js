@@ -40,13 +40,19 @@ if(isNaN(n)) {
     alert("Please enter valid number");
 } else {
     var main_string = "";
-    for(var j = 0; j < n; j = j + 1) {
-	var str = "";
-    	for (var i = 0; i < n; i = i + 1) {
-	    str = str + "*";
-    	}
-    	main_string = main_string + str + "\n";
+    for(var i = 0; i < n; i = i + 1) {
+	var inner_string = "";
+        for(var j  = 0; j < n; j = j + 1) {
+	    inner_string = inner_string + "*";
+	}
+	main_string = main_string + inner_string + "\n";
     }
+
     console.log(main_string);
 }
+
+
+
+///Inner
+
 

@@ -12,9 +12,26 @@ BEDMAS -> Brackets, Exponents ( ** ), Division, Multiplication, Addition, Subtra
 4. Switch -> It is specialized if else ladder and where we want to compare the same variable with different different values.
 
 5. Patterns
+1. Print a square of n x n. (n is taken from user).
+-> n = 3
+* * *
+* * *
+* * *
 
+-> n = 5
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
 
+Assignment 1:
+-> User will give a string. Return the count of vowels.
+-> aayush -> Output: 3
+-> AAYuSH -> Output: 3
 
+Assignment 2:
+-> User enters a number, check and tell whether that number is a prime number or not. (If user enters, abcd. You handle that situation).
 
 
 
