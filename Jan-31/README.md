@@ -2,7 +2,7 @@ Jan-31
 
 1. Download any of your preferred IDE. (VSCode (Preferrably), Atom, Sublime, Brackets).
 IDE -> Integrated Development Environment.
-
+-> https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 2. Objects. -> It is also a collection of key-value pair. (Heterogenous).
 -> In arrays, we CANNOT have custom keys. This is a downside.
