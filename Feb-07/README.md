@@ -38,27 +38,6 @@ Assignment 1:
 -> It should also have proper validation.
 
 
-
-
-
-Recap through Forms and Inputs.
-
--> anchor
--> lists
--> table
--> head and title
--> hr
--> iframe
-
-A bit more HTML tags.
--> Container tags (span and div)
-CSS.
-
---> discussion on layout (block vs inline).
-
-height width color; background.
-
-
 Further Reading:
 -> Regular Expression (https://regex101.com/)
 ->https://regex101.com/
