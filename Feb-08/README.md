@@ -29,21 +29,3 @@ Assignment 2.
 -> An html page which should contain an input text tag, a button and some ul/li.
 
 Looks and CSS is NOT mndatory!
-
-
-
--> description lists
--> table
--> head and title
--> hr
--> iframe
--> Entity
-
-A bit more HTML tags.
--> Container tags (span and div)
-CSS.
-
---> discussion on layout (block vs inline).
-
-height width color; background.
-
