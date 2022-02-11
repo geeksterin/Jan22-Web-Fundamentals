@@ -27,23 +27,7 @@ Assignment 1:
 
 Assignment 2:
 -> Create a table looking similar to the Wiki secion Class schedule.
--> Make it look same as possible. Use background-color and color.
+-> Make it look same as possible. Use background-color and color. (Dark theme)
 -> Data can be dummy text also.
 
 -> Further Reading (width style property).
-
--> head and title
--> hr
--> iframe
--> Entity
-
-A bit more HTML tags.
--> Container tags (span and div)
-CSS.
-
---> discussion on layout (block vs inline).
-
-height width color; background.
-
-
-Input type hidden.
