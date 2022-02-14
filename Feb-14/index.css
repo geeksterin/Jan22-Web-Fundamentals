@@ -1,0 +1,52 @@
+/* h1 {
+    text-align: center;
+    color: red;
+}
+
+button {
+    font-size: 250%;
+    border-width: 15px;
+}
+
+p {
+    color: blue;
+    font-size: 200%;
+}
+
+[abcd="XYZ"] {
+    color: pink;
+}
+
+input {
+    font-size: 200%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+[required="required"] {
+    color: red;
+} */
+
+/* [id="special"] {
+    color: aqua;
+} */
+
+/* #special {
+    color: aqua;
+} */
+
+/* [class="special"] {
+    color: orange;
+}
+
+.special {
+    color: orange;
+} */
+
+.red-text {
+    color: red;
+}
+
+.center-text {
+    text-align: center;
+}
