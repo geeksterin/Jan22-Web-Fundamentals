@@ -1,0 +1,28 @@
+h3 {
+    cursor: progress;
+}
+
+* {
+    color: red;
+    text-align: center;
+    font-size: 150%;
+}
+
+/* *:hover {
+    color: yellow;
+} */
+
+button:hover {
+    color: blue;
+    background-color: orange;
+    font-size: 180%;
+}
+
+button:active {
+    color: green;
+}
+
+.green-button:hover {
+    color: green;
+}
+

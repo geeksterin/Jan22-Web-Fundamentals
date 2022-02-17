@@ -37,39 +37,9 @@ ID vs Classes
 
 
 4. color / background-color / text-align / margin / border / float
-5. Shorthand for margin and border.
-
--> What do you mean by Cascading in CSS?
--> Specificity (Priority)
 
 Assignment 1:
 -> Start on YouTube clone. (Navbar and 1 or 2 cards).
 -> Read about Text-Decoration
 -> Make sure that you are using semantic HTML and External CSS with semantic class names.
 -> To get the icons -> https://www.flaticon.com/
-
-
--> details and summary
-CSS.
-
-
---> discussion on layout (block vs inline).
-
-
--> meta (share in facebook)
--> doctype
-
-
-A bit more HTML tags.
-
-
-height width color.
-
-
-Input type hidden.
-
-
-1. font.
--> Adding custom font.
--> Bold / Italic / Underline.
--> 
