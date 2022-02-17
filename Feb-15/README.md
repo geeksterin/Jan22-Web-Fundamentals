@@ -10,38 +10,3 @@ Basic Selectors
 Pseudo Selectors: Fake
 1. Pseudo Classes
 2. Pseudo Elements
-
-Combinators
-Grouping
-
-
-
-5. Shorthand for margin and border.
--> What do you mean by Cascading in CSS?
--> Specificity (Priority)
-
-
--> details and summary
-CSS.
-
-
---> discussion on layout (block vs inline).
-
-
--> meta (share in facebook)
--> doctype
-
-
-A bit more HTML tags.
-
-
-height width color.
-
-
-Input type hidden.
-
-
-1. font.
--> Adding custom font.
--> Bold / Italic / Underline.
--> 
