@@ -12,11 +12,6 @@ Responsiveness:
 Assignment : 
 -> Recreate the image gallery using flex.
 
-1. Class
-2. ID
-3. Tag type
-
-
 1. display:
 -> none.
 -> inline
@@ -35,44 +30,3 @@ Assignment :
 
 2. Display inline v/s inline-block
 in inline-block we can give custom sizing. In inline, it will take size of the element only.
-
-Viewport vs Display diff.
-
-1. Document Flow / Rendering flow.
-2. Flex
-
-
-Combinators
-Grouping
-
-
-
-5. Shorthand for margin and border.
--> What do you mean by Cascading in CSS?
--> Specificity (Priority)
-
-
--> details and summary
-CSS.
--> Units of measurement
-
---> discussion on layout (block vs inline).
-
-
--> meta (share in facebook)
--> doctype
-
-
-A bit more HTML tags.
-
-
-height width color.
-
-
-Input type hidden.
-
-
-1. font.
--> Adding custom font.
--> Bold / Italic / Underline.
--> 

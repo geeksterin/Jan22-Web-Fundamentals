@@ -1,0 +1,100 @@
+h2:hover {
+    color: red;
+    /* font-size: 250%; */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.geekster_btn {
+    text-decoration: none;
+    background-color: rgb(41, 180, 117);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.geekster_btn:hover {
+    background-color: #10973f;
+}
+
+.geekster_btn:active {
+    background-color: red;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+body {
+    /* margin: 0px; */
+    /* cursor: pointer; */
+}
+
+button {
+    /* margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px; */
+
+    /* padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 5px; */
+    
+    /* padding: 10px 5px 20px 15px; */
+    
+    /* padding: 10px 15px 20px;  */
+
+    /* padding: 10px 20px; */
+
+    /* padding: 10px; */
+}
+
+.f-right {
+    float: right;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+/* li:nth-child(1) {
+    color: orange;
+}
+li:nth-child(2) {
+    color: orangered
+}
+li:nth-child(3) {
+    color: orange;
+}
+li:nth-child(4) {
+    color: orangered
+}
+li:nth-child(5) {
+    color: orange;
+}
+li:nth-child(6) {
+    color: orangered
+} */
+
+/* li:nth-child(2n+1) {
+    color: orange;
+}
+li:nth-child(2n) {
+    color: orangered;
+} */
+
+/* li:first-child {
+    color: red;
+} */
+
+li:nth-child(odd) {
+    color: lightgray;
+}
+li:nth-child(even) {
+    color: orangered;
+}
