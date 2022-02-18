@@ -63,6 +63,8 @@ CSS.
 -> meta (share in facebook)
 -> doctype
 
+text-transform CSS
+calc
 
 A bit more HTML tags.
 
