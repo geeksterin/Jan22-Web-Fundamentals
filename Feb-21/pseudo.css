@@ -1,0 +1,26 @@
+.dropdown {
+    cursor: pointer;
+}
+
+.dropdown:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    /* visibility: hidden; */
+}
+
+.dropdown-trigger:hover > .dropdown-content {
+   display: initial;
+   /* color: red; */
+}
+
+/* ul > li {
+    color: blue;
+} */
+
+.blue-text {
+    color: blue;
+}

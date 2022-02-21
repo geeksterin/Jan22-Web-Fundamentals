@@ -1,0 +1,23 @@
+a {
+    display: block;
+}
+
+.parent .special {
+    color: green;
+}
+
+/* .special {
+    font-size: 200%;
+} */
+
+/* .f1 p {
+    color: yellow;
+} */
+
+.child-combinator-parent-class > .next-gen > .child {
+    color: red;
+}
+
+form input {
+    border: 3px solid red;
+}
