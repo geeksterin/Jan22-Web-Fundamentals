@@ -1,0 +1,45 @@
+/* h2,h4,.special_child,p { */
+    /* background-color: rgb(102, 92, 145); */
+    /* background-color: #665C91; */
+    /* background-color: rgba(102, 92, 145, 0.2); */
+/* } */
+
+p.special_child {
+    background-color: rgba(102, 92, 145, 0.2);
+}
+
+input[required] {
+    border: 2px solid red;
+}
+
+.class1, .class2 {
+    color:rgba(102, 92, 145, 0.2);
+}
+
+h2 {
+    background-color: rgba(102, 92, 145, 0.8);
+    border-radius: 2px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(102, 92, 145, 0.6);
+}
+
+/* aayush {
+    color:rgb(134, 80, 150);
+} */
+
+
+/* .special_child {
+    color: orange;
+} */
+
+/* .special_child ~ li {
+    color: orangered;
+} */
+
+/* .special_child:hover {
+    color: lightgreen;
+} */
+
+.special_child + li {
+    color: darkorchid;
+}
