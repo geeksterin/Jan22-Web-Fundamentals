@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+}
+header {
+    background-color: black;
+    text-align: center;
+    padding: 3px 200px;
+}
+
+section {
+    padding: 50px 140px 0px;
+    background-color: #FAFAFA;
+}
+
+.category-title {
+    margin-top: 30px;
+}
+
+.category-title > h1 {
+    display: inline;
+    font-size: 300%;
+    font-style: italic;
+}
+
+.category-title > button {
+    padding: 10px;
+    border-radius: 0px;
+    border-color: black;
+    border-style: solid;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.category-title > button:hover {
+    background-color: black;
+    color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.float-left {
+    float:left;
+}
+
+.float-right {
+    float:right;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 70px;
+    padding: 15px 40px;
+}
+
+.padding-right {
+    padding-right: 50px;
+}
+
+.nav-links {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 8px;
+}
+.nav-center {
+    text-align: center;
+}
+.dynamic-width {
+    width: calc(100% - 200px);
+}
+
+.nav-links-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.button-img {
+    height: 17px;
+}
+
+.search-bar {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: rgb(233, 236, 239);
+}
+.simple-input {
+    border: none;
+    background-color: rgb(233, 236, 239);
+}
+
+nav {
+    border-bottom: 1px solid rgb(146, 147, 149);
+}
+
+.product-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.product-container {
+    padding: 20px;
+}
+
+.product-container > div {
+    width: 330px;
+    cursor: pointer;
+    /* background-color: turquoise; */
+}
+
+.product-container > div > div {
+    width: 300px;
+    padding: 15px;
+    height: 300px;
+    background-image: url('https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/d308de9fe1f44dce8145a6aa00ca5b56_9366/vs-pace-shoes.jpg');
+    background-size: cover;
+}
+
+.product-container > div:hover > div {
+    background-image: url('https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/7062a3d2b76944409923a6aa00ca68c9_9366/vs-pace-shoes.jpg');
+}
+
+.product-container > div:hover .position-bottom {
+    top: 252px;
+}
+
+.product-container > div:hover {
+    outline: 1px solid black;
+}
+
+.position-bottom {
+    position: relative;
+    top: 257px;
+    transition: 0.25s;
+    /* left: 0px; */
+    /* bottom: -80px; */
+}
+
+.position-bottom > p {
+    display: inline;
+    padding: 5px;
+    background-color: white;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.new-price {
+    color: red;
+}
+
+.gray {
+    color: gray;
+}

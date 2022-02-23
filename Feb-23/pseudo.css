@@ -1,0 +1,42 @@
+.simple_para:hover {
+    color: rgb(100, 220, 30);
+}
+
+p::first-letter {
+    font-size: xx-large;
+    color:rgb(200, 120, 130);
+}
+
+.simple_para:hover::first-line{
+    background-color: aqua;
+    font-size: xx-large;
+    color: black;
+}
+
+
+p::selection,span::selection {
+    background-color: rgb(255, 255, 0);
+    /* text-decoration: underline; */
+}
+
+/* p:active {
+    background-color: rgb(255, 0, 0);
+} */
+
+p::before {
+    content: '😎 ';
+}
+
+p::after {
+    content: 'abcd ';
+    color:rgb(100, 220, 30);
+    background-color: aqua;
+}
+
+.specific_list {
+    list-style: none;
+}
+
+.specific_list > li::before {
+    content: '😎 ';
+}

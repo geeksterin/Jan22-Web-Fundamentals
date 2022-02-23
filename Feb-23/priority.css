@@ -1,0 +1,97 @@
+/* p {
+    color: red;
+}
+
+p {
+    color: green;
+} */
+
+
+
+
+
+
+/* p {
+    color: blue;
+} */
+
+@media (max-width: 500px) {
+    button {
+        display: none;
+    }
+}
+
+
+
+.text {
+    /* opacity: 0; */
+    color: red;
+    transition: 5s;
+    animation: 5s infinite alternate geekster_animation;
+}
+
+@keyframes geekster_animation {
+    from {
+        margin-left: -50px;
+    }
+    to {
+        margin-left: 200px;
+    }
+}
+
+.text:hover {
+    color: green;
+    /* opacity: 1; */
+}
+
+
+
+/* .text {
+    color: blue;
+}
+
+[key="value"] {
+    color: black;
+}
+ */
+
+
+
+
+/* #highest {
+    color: cyan;
+} */
+
+/* * {
+    color: yellow;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+li {
+    color: red;
+}
+
+.special {
+    color: green;
+} */
+
+
+
+
+
+
+
+
+
+
+

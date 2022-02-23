@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+
+.theme_switch:checked ~ .main_container {
+    background-color: #1F1E1F;
+    color: #EFEFEF;
+}
+
+.theme_switch ~ span::after {
+    content: '🌞';
+}
+
+.theme_switch:checked ~ span::after {
+    content: '🌑';
+}
