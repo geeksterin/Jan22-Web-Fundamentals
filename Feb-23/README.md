@@ -17,10 +17,13 @@ Task 1 - Theme implemention (Checkbox, for dark mode or light mode).
 -> Internal and External are same, it DEPENDS on the chronology (sequence). Whichever is later, it will OVERRIDE the previous one.
 -> How specific you are selecting:
 
-1. ID Selector
-2. Class Selector / Attribute Selector
-3. Tag Type selector
-4. Universal
+1. Pseudo with ID
+2. ID Selector
+3. Pseudo with Class / Attribute
+4. Class Selector / Attribute Selector
+5. Pseudo with Tag Type
+6. Tag Type selector
+7. Universal
 
 Where will Pseudo Selector be placed here?
 
@@ -32,53 +35,3 @@ Assignment 1:
 -> Afterhours
 -> Finish clone of (https://www.adidas.co.in).
 -> https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
-
-
-
-
-
-3. Positioning (position - fixed, static, sticky, absolute, relative).
-
-4. Document Flow / Rendering flow.
-
-5. Intro to JS
-
--> Flex justify content vs margin.
-
-
-Viewport vs Display diff.
-
-
-cursor uring image.
-
-Shorthand for border.
--> What do you mean by Cascading in CSS?
-
-
-
--> details and summary
-CSS.
--> Units of measurement
-
---> discussion on layout (block vs inline).
-
-
--> meta (share in facebook)
--> doctype
-
-text-transform CSS
-calc
-
-A bit more HTML tags.
-
-
-height width color.
-
-
-Input type hidden.
-
-
-1. font.
--> Adding custom font.
--> Bold / Italic / Underline.
--> 

@@ -9,6 +9,30 @@ p {
 
 
 
+.text:hover {
+    color: red;
+}
+
+.text {
+    color: green;
+}
+
+#something-text:hover {
+    color: blue;
+}
+
+#something-text {
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* p {
@@ -25,9 +49,9 @@ p {
 
 .text {
     /* opacity: 0; */
-    color: red;
-    transition: 5s;
-    animation: 5s infinite alternate geekster_animation;
+    /* color: red; */
+    /* transition: 5s; */
+    /* animation: 5s infinite alternate geekster_animation; */
 }
 
 @keyframes geekster_animation {
@@ -40,7 +64,7 @@ p {
 }
 
 .text:hover {
-    color: green;
+    /* color: green; */
     /* opacity: 1; */
 }
 

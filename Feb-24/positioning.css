@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-color: #5380fc;
+    /* position: static; */
+    /* position: initial; Same as position: static */
+    /* position: relative;
+    left: 150px; */
+    /* margin-left: 150px; */
+    /* width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px; */
+    /* position: absolute; */
+    /* left: 50px; */
+    /* top: 0px; */
+    /* top: 10px; */
+    /* left: 20px; */
+    /* position: absolute; */
+    position: sticky;
+    top: 0px;
+    left: 50px;
+    width: 100%;
+}
+
+nav {
+    border: 1px solid pink;
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+    width: 100px;
+    height: 150px;
+    background-color: #EFEFEF;
+    overflow: scroll;
+}
+
+div > p {
+    margin: 0px;
+    color: red;
+}
+
+header {
+    background-color: #5380fc;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+header + * {
+    padding-top: 50px;
+}
