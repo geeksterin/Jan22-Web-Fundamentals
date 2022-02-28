@@ -83,9 +83,9 @@ function add(a, b) {
 }
 
 
-var num1 = prompt("Enter first number");
+var num1 = parseInt(prompt("Enter first number"));
 var num2 = prompt("Enter second number");
-num1 = parseInt(num1);
+num1 = (num1);
 num2 = parseInt(num2);
 
 var s = add(num1, num2);

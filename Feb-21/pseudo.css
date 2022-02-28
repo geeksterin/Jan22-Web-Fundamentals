@@ -17,6 +17,10 @@
    /* color: red; */
 }
 
+.dropdown2-trigger:hover > .dropdown2-content {
+    display: initial;
+}
+
 /* ul > li {
     color: blue;
 } */
