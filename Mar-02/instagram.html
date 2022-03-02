@@ -1,0 +1,82 @@
+<!-- <html>
+    <body>
+        <h3 id="output">Not Liked</h3>
+        <button onclick="like_dislike();">Like</button>
+        <script>
+            var already_liked = false;
+            var counter = 1000;
+
+            function like_dislike() {
+                if(already_liked == false) {
+                    // alert("Post liked");
+                    counter += 1;
+                    document.getElementById('output').innerText = counter;
+                    already_liked = true;
+                } else {
+                    // alert("Post Disliked");
+                    counter -= 1;
+                    document.getElementById('output').innerText = counter;
+                    already_liked = false;
+                }
+            }
+        </script>
+    </body>
+</html> -->
+
+<html>
+    <head>
+        <style>
+            @media (max-width: 500px) {
+                body {
+                    background-color: yellow;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Like / Dislike counter</h2>
+        <h1 id="counter">0</h1>
+        <h4 id="explain">0 0</h4>
+        
+        <div class="container">
+            <button onclick="liked();" id="like">Like</button>
+            <button onclick="disLiked();" id="dislike">Dislike</button>
+        </div>
+    
+        <div class="pro">
+            <progress id="bar" value="0" max="100"></progress>
+        </div>
+
+        <script>
+            var likes = 0;
+            var dislikes = 0;
+            function liked() {
+                var inc = document.getElementById("counter");
+                var progress = document.getElementById("bar");
+                var explain = document.getElementById('explain');
+                likes += 1;
+                inc.innerText = likes - dislikes;
+                var total = likes + dislikes;
+                var percent = likes / total;
+                explain.innerText = likes + "  " + dislikes;
+                progress.value = percent * 100;
+            }
+
+            function disLiked() {
+                var inc = document.getElementById("counter");
+                var progress = document.getElementById("bar");
+                var explain = document.getElementById('explain');
+                dislikes += 1;
+                inc.innerText = likes - dislikes;
+                var total = likes + dislikes;
+                var percent = likes / total;
+                explain.innerText = likes + "  " + dislikes;
+                progress.value = percent * 100;
+            }
+        </script>
+    </body>
+</html>
+
+
+
+

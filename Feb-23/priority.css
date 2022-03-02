@@ -51,15 +51,15 @@ p {
     /* opacity: 0; */
     /* color: red; */
     /* transition: 5s; */
-    /* animation: 5s infinite alternate geekster_animation; */
+    animation: 5s infinite geekster_animation;
 }
 
 @keyframes geekster_animation {
     from {
-        margin-left: -50px;
+        transform: translateX(-200px);
     }
     to {
-        margin-left: 200px;
+        transform: translateX(400px);
     }
 }
 
