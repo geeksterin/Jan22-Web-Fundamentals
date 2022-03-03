@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Viewport Height */
+}
+
+.light {
+    background-color: #EAEAEA;
+}
+
+.light h3 {
+    color: #111111;
+}
+
+.dark {
+    background-color: #2B2B2B;
+}
+
+.dark h3 {
+    color: #EEEEEE;
+}
+
+.popup {
+    position: fixed;
+    top: 40%;
+    width: 100vw;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;;
+    text-align: center;
+}
+
+.d-none {
+    display: none;
+}

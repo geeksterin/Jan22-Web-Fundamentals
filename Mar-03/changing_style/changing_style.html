@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Changing Style using JS</title>
+        <link rel="stylesheet" href="./changing_style.css" />
+    </head>
+    <body class="light">
+        <h3>My Page</h3> &emsp;
+        <button onclick="color_changer();">Click me</button>
+        
+        <div class="popup" id="unsubscribe">
+            <h1>Subscribe to my channel</h1>
+            <button onclick="hidePopup();">Close</button>
+            <br />
+            <br />
+        </div>
+
+        <p id="some_text"></p>
+        
+        <script src="./changing_style.js"></script>
+        <script>
+            var a = document.getElementById('some_text');
+            // a.innerText = "ABCD";
+            // a.innerHTML = "ABCD";
+
+            // a.innerText = "<button>Click Me</button>";
+            a.innerHTML = "<button style='background-color: black;'>Click Me</button>";
+
+        </script>
+    </body>
+</html>
