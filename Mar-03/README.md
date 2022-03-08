@@ -18,7 +18,7 @@ Mar-03
 
 9. document.body -> To access the body element. You can also do, document.querySelector("body");. document.getElementsByTagName("body"); document.getElementById();
 
-10. innerText
+10. innerText vs innerHTML
 
 Assignment 1:
 -> Create a page, have a toggle button. On this button, if I click once, show the popup, inside the popup have the close button.
