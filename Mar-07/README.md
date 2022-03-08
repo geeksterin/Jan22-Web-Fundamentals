@@ -43,32 +43,12 @@ b.
 -> var is functional scoped (global scoped).
 -> let is block scoped.
 
-
--> Arrow functions
--> String Templating (Multi Line vs Literals)
--> 
-
-1. Not Supporting
-2. Writing a Polyfill
-
 Storing let var and const in memory.
 
 1. ES6 Stuff
 2. scope
 3. block
 4. var vs let
-5. Functions in depth.
--> Anonymous functions
--> Arrow Functions
--> Callbacks
--> IIFE (Depends)
-
-6. eventListener
-7. createElement
-
-8. Change CSS style using JS
-
--> TODO List
 
 Assignment 1:
 Prepare Looks and CSS for the TODO List Structure which we already created (Feb-08).

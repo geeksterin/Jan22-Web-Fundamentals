@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            #div1, #div2, #div3 {
+                display: none;
+            }
+            #div1 {
+                display: initial;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="div1">
+                <p>Para 1 (Home)</p>
+            </div>
+            <div id="div2">
+                <p>Para 2 (Search)</p>
+            </div>
+            <div id="div3">
+                <p>Para 3 (Profile)</p>
+            </div>
+        </div>
+        <button onclick="changeDiv('01')">Show 1</button>
+        <button onclick="changeDiv('02')">Show 2</button>
+        <button onclick="changeDiv('03')">Show 3</button>
+
+        <script>
+            function changeDiv(div_id) {
+                var div1 = document.getElementById('div1');
+                var div2 = document.getElementById('div2');
+                var div3 = document.getElementById('div3');
+
+                if(div_id == "01") {
+                    div1.style.display = "initial";
+                    div2.style.display = "none";
+                    div3.style.display = "none";
+                } else if(div_id == "02") {
+                    div1.style.display = "none";
+                    div2.style.display = "initial";
+                    div3.style.display = "none";
+                } else {
+                    div1.style.display = "none";
+                    div2.style.display = "none";
+                    div3.style.display = "initial";
+                }
+            }
+        </script>
+    </body>
+</html>
