@@ -30,28 +30,13 @@ Assignment 2:
 --> When I click on any of them, show it on the right side (with description and other data).
 --> To add a note, we need more than one input, maybe 1 for note title and one textarea for note description.
 
+container > div > h1 > span
 
-insertBefore
+const container = document.getElement...
+const div = document.createElement('div');
+const h1 = document.createElement('h1');
+const span = document.createElement('span');
 
-
-1. Arrow functions
-
-5. child / parent.
-6. remove()
-
-7. Async JS
--> setTimeout/setInterval
--> fetch and API call.
-
-
-
--> Function inside function.
-
--> IIFE (Depends)
--> TODO List
-
-
-
-1. Not Supporting
-2. Writing a Polyfill
-
+h1.appendChild(span);
+div.appendChild(h1);
+container.appendChild(div);
