@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <style>
+            .popup {
+                background-color: grey; 
+                position: fixed; 
+                top: 0px; 
+                left: 0px; 
+                width: 100vw; 
+                height: 100vh;
+            }
+            .hidden {
+                display: none;
+            }
+            button:hover {
+                background-color: green;
+            }
+            button:active {
+                background-color: red;
+            }
+            button::first-letter {
+                color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="special" onclick="showPopup('text1');">Button 1</button>
+        <button onclick="showPopup('text2');">Button 2</button>
+        <button onclick="showPopup('text3');">Button 3</button>
+
+        <div>
+            <p style="overflow: hidden; width: 50px; text-overflow: ellipsis;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut culpa in, ipsa aspernatur quis hic? Tempora, quasi dolorem! Facilis totam fugit debitis accusamus quibusdam laboriosam iusto omnis dolore, illum reiciendis!</p>
+        </div>
+
+
+        <div class="popup hidden" id="popup_container">
+            <button onclick="hidePopup();">Close Popup</button>
+            <p>Popup / Zoom</p>
+            <span id="content"></span>
+        </div>
+
+        <script>
+            // function showPopup(text) {
+            //     const elem = document.getElementById('popup_container');
+            //     elem.classList.remove("hidden");
+            //     const span_elem = document.getElementById('content');
+            //     span_elem.innerText = text;
+            // }
+
+            // function hidePopup() {
+            //     const elem = document.getElementById('popup_container');
+            //     elem.classList.add('hidden');
+            // }
+
+            const abcd = {
+                'key1': "Value somethig",
+                'key2': "Value another thing",
+            };
+        </script>
+    </body>
+</html>

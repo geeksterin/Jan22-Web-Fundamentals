@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassList with evenListener</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            /* gap: 30px; */
+            justify-content: space-around;
+        }
+        video{
+            min-width: 100%;
+            min-height: 100;
+            z-index: -1;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            right: 0%;
+            bottom: 0%;
+        }
+
+        .image-container {
+            height: 30%;
+            width: 30%;
+            margin-top: 3%;
+
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+           
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .zoom-img-container {
+            width: 96%;
+            height: 90vh;
+            position: fixed;
+            top: 3%;
+            left: 2%;
+            right: 2.5%;
+        }
+    </style>
+</head>
+
+<body>
+   <video muted autoplay loop>
+       <source src="https://player.vimeo.com/external/364019426.sd.mp4?s=ba8bca0093273b4932cd4b4445635a983983fc5c&profile_id=139&oauth2_token_id=57447761"> 
+   </video>
+
+    <div class="image-container">
+        <img id="0" src="https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559_960_720.jpg" />
+    </div>
+    <div class="image-container">
+        <img id="1" src="https://cdn.pixabay.com/photo/2017/07/04/19/23/labrador-retriever-2472269_960_720.jpg" />
+    </div>
+    <div class="image-container">
+        <img id="2" src="https://cdn.pixabay.com/photo/2016/08/19/00/51/dog-1604357_960_720.jpg" />
+    </div>
+    <!-- <div class="zoom-img-container">  -->
+
+    </div>
+    <!-- JS part for zoom in and zoom out -->
+    <script>
+        const arr = ["", "", ""];
+        const click_fn = function(abcd) {
+            const idx = abcd.target.id;
+            abcd.target.src = arr[idx];
+        }
+        const images = document.getElementsByTagName('img');
+        for(let i = 0; i < images.length; i+= 1) {
+            const single_image = images[i];
+            single_image.addEventListener('click', click_fn);
+        }
+    </script>
+
+</body>
+
+</html>
