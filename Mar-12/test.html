@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <title>Sample fetch</title>
+    </head>
+    <body>
+        <h2>Something</h2>
+        <input type="text" id="input_field" placeholder="Enter user ID" />
+        <img src="" alt="" id="randam">
+        <button id="search_btn">Search</button>
+        <img src="" id="search_img" />
+        <div id="list_container"></div>
+        <script>
+            const convert_to_json = function(response) {
+    console.log(response)
+    return response.json();
+}
+
+
+const handle_data = function(res) {
+    console.log(res)
+    const user_arr = res.data[0];
+    console.log(user_arr)
+    // const user_arr = res.data;
+//     console.log(user_arr[0].url);
+   const container = document.getElementById('list_container');
+
+// //     for(let i = 0; i < user_arr.length; i += 1) {
+                const single_user = user_arr.images.original.url;
+                console.log(single_user);
+                  const new_li_elem = document.createElement('img');
+                new_li_elem.src = single_user;
+//                  new_li_elem.src = single_user;
+                 container.appendChild(new_li_elem);
+   
+// // }
+
+
+}
+var keyf="&api_key=Ez4dGybjCudOo9klYvlmMedtmt8dlkoP";
+
+fetch(`https://api.giphy.com/v1/gifs/trending?${keyf}`).then(convert_to_json)
+.then(handle_data)
+
+        </script>
+    </body>
+</html>

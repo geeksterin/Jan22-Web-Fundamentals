@@ -1,0 +1,50 @@
+body {
+    background-color: #EFFFFD;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #42C2FF;
+    box-shadow: 0px 2px 8px #B8FFF9;
+}
+
+nav > h1 {
+    display: inline;
+}
+
+.f-right {
+    float: right;
+}
+
+.flex-item {
+    border: 1px solid #42C2FF;
+    background-color: #B8FFF9;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.flex-item > img {
+    border-radius: 5px 5px 0px 0px;
+    width: 200px;
+    max-height: 250px;
+}
+
+.flex-item > h2, .flex-item > p {
+    margin: 0px;
+    margin-left: 0.5rem;
+    text-overflow: clip;
+    width: 200px;
+}
+
+section {
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
